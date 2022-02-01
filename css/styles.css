@@ -11424,7 +11424,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/3375405.jpg");
+  background-image: url("../assets/img/tausta.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -11515,6 +11515,7 @@ header.masthead .masthead-heading {
   padding-top: 6rem;
   padding-bottom: 6rem;
   text-align: center;
+  background-color: #fff;
 }
 .portfolio-modal .modal-content h2, .portfolio-modal .modal-content .h2 {
   font-size: 3rem;
