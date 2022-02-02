@@ -11465,6 +11465,7 @@ header.masthead .masthead-heading {
 }
 #portfolio .portfolio-item {
   max-width: 26rem;
+  border: #b6effb;
   margin-left: auto;
   margin-right: auto;
 }
@@ -11476,8 +11477,8 @@ header.masthead .masthead-heading {
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
   display: flex;
   position: absolute;
-  width: 100%;
-  height: 100%;
+  width: 10%;
+  height: 10%;
   background: rgba(255, 200, 0, 0.9);
   align-items: center;
   justify-content: center;
