@@ -11465,7 +11465,33 @@ header.masthead .masthead-heading {
   top: 8px;
   left: 16px;
 }
+.from-left {
+  grid-column: 2 / 3;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
 
+.from-right {
+  grid-column: 3 / 4;
+  -webkit-transform: translateY(50%);
+  transform: translateY(50%);
+}
+
+.from-left,
+.from-right {
+  transition: opacity 250ms ease-in, -webkit-transform 400ms ease-in;
+  transition: opacity 250ms ease-in, transform 400ms ease-in;
+  transition: opacity 250ms ease-in, transform 400ms ease-in,
+    -webkit-transform 400ms ease-in;
+  opacity: 0;
+}
+
+.from-left.appear,
+.from-right.appear {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  opacity: 1;
+}
 /* Top right text */
 .top-right {
   position: absolute;
