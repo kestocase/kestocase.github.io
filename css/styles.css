@@ -10385,7 +10385,7 @@ header.masthead .masthead-heading {
 }
 .moroo {
   position: absolute;
-  top: 10%;
+  top: 20%;
   color: red;
   left: 50%;
   transform: translate(-50%, -50%);
