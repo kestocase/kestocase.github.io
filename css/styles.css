@@ -10377,7 +10377,19 @@ header.masthead .masthead-heading {
   bottom: 8px;
   left: 16px;
 }
-
+.tekstinapissa {
+  position: absolute;
+  bottom: 48px;
+  left: 25%;
+  color:black;
+}
+.moroo {
+  position: absolute;
+  top: 10%;
+  color: red;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 /* Top left text */
 .top-left {
   position: absolute;
