@@ -10365,7 +10365,7 @@ header.masthead .masthead-subheading {
 
   line-height: 1.5rem;
   margin-bottom: 5px;
-  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  /* font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
 }
 header.masthead .masthead-heading {
   font-size: 3.25rem;
@@ -10401,6 +10401,10 @@ header.masthead .masthead-heading {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.p1 {
+  font-family: "lulo", Times, serif;
+}
 /* Top left text */
 .top-left {
   position: absolute;
@@ -10418,7 +10422,17 @@ header.masthead .masthead-heading {
   -webkit-transform: translateY(50%);
   transform: translateY(50%);
 }
+.from-vas {
+  grid-column: 2 / 3;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
 
+.from-oik {
+  grid-column: 3 / 4;
+  -webkit-transform: translateX(50%);
+  transform: translateX(50%);
+}
 .from-left,
 .from-right {
   transition: opacity 250ms ease-in, -webkit-transform 400ms ease-in;
@@ -10432,6 +10446,21 @@ header.masthead .masthead-heading {
 .from-right.appear {
   -webkit-transform: translateY(0);
   transform: translateY(0);
+  opacity: 1;
+}
+.from-vas,
+.from-oik {
+  transition: opacity 250ms ease-in, -webkit-transform 400ms ease-in;
+  transition: opacity 250ms ease-in, transform 400ms ease-in;
+  transition: opacity 250ms ease-in, transform 400ms ease-in,
+    -webkit-transform 400ms ease-in;
+  opacity: 0;
+}
+
+.from-vas.appear,
+.from-oik.appear {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
   opacity: 1;
 }
 /* Top right text */
@@ -10492,7 +10521,7 @@ section#portfolio {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/tausta5.jpg");
+  background-image: url("../assets/img/taustasd.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
