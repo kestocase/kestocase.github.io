@@ -4880,13 +4880,13 @@ hr.style-four {
 
 .modal-content {
   position: relative;
-
+left: 130px;
   flex-direction: column;
-  width:60%;
+  width: 900px;
   pointer-events: auto;
   background-color: black;
   background-clip: padding-box;
-
+  background-image: url("../assets/img/taustasd.jpg");
   outline: 0;
 }
 
