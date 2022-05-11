@@ -4882,9 +4882,10 @@ hr.style-four {
   position: relative;
 left: 20%;
   flex-direction: column;
-  width: 50%;
+  width:auto;
   pointer-events: auto;
   background-color: black;
+  max-width: 1000px;
   background-clip: padding-box;
   background-image: url("../assets/img/taustasd.jpg");
   outline: 0;
