@@ -4885,6 +4885,7 @@ left: 5%;
   width:auto;
   pointer-events: auto;
   background-color: black;
+  max-width: 80%;
   max-width: 1000px;
   background-clip: padding-box;
   background-image: url("../assets/img/taustasd.jpg");
