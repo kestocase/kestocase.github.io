@@ -4880,7 +4880,7 @@ hr.style-four {
 
 .modal-content {
   position: relative;
-left: 130px;
+left: 20%;
   flex-direction: column;
   width: 900px;
   pointer-events: auto;
