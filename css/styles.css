@@ -4882,7 +4882,7 @@ hr.style-four {
   position: relative;
 left: 20%;
   flex-direction: column;
-  width: 900px;
+  width: 50%;
   pointer-events: auto;
   background-color: black;
   background-clip: padding-box;
